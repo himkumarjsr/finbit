@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.dispalyLaout
+{
+  margin: 40px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.searchField{
+  width: 40%;
+  margin: 0px 20px 20px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    text-align: center;
+  }
+  .dispalyLaout
+  {
+    margin: 10px;
+  }
+  table{
+    width:100vw;
+  }
+}
